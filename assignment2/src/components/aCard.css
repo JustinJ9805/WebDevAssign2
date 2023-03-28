@@ -1,6 +1,6 @@
 .card{
     position: relative;
-    
+    padding: 4px;
 }
 
 .front, .back{
@@ -21,4 +21,6 @@
 
 .flipped .front {
     transform: rotateY(0deg);
+    border-color: red;
+    border-width: 4px;
 }
